@@ -1,0 +1,18 @@
+{
+    "tcp": {
+        "send": "[  5]   0.00-10.00  sec   113 MBytes  95.0 Mbits/sec                  sender",
+        "recv": "[  5]   0.00-10.09  sec   113 MBytes  94.2 Mbits/sec                  receiver"
+    },
+    "udp": {
+        "send": "[  5]   0.00-10.01  sec   113 MBytes  94.5 Mbits/sec  0.000 ms  0/80996 (0%)  sender",
+        "recv": "[  5]   0.00-10.02  sec   111 MBytes  92.8 Mbits/sec  0.080 ms  1405/80994 (1.7%)  receiver"
+    },
+    "reverse_tcp": {
+        "send": "[  5]   0.00-10.01  sec   107 MBytes  89.5 Mbits/sec                  sender",
+        "recv": "[  5]   0.00-10.01  sec   106 MBytes  89.3 Mbits/sec                  receiver"
+    },
+    "reverse_udp": {
+        "send": "[  5]   0.00-10.01  sec   119 MBytes  99.9 Mbits/sec  0.000 ms  0/85614 (0%)  sender",
+        "recv": "[  5]   0.00-10.00  sec  77.7 MBytes  65.2 Mbits/sec  0.123 ms  29733/85532 (35%)  receiver"
+    }
+}
