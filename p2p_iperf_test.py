@@ -48,9 +48,13 @@ while(True):
 
     #### Function to run Iperf and capture the values (TCP, UDP, reverse TCP, reverse UDP)
 
+    print("h")
+
     # TCP Test
     tcp_result = subprocess.check_output(["iperf3", "-c", "10.1.1.10", "-t", "10", "-i", "1", "-p", "5201"])
+    print("p")
     tcp_send = None
+    print("drug")
     tcp_recv = None
     for line in tcp_result.decode().splitlines():
         if "sender" in line:
